@@ -139,26 +139,7 @@ export const fakeCars = [
     rating: 4.8,
     reviews: 92
   },
-  {
-    id: 8,
-    name: 'Mazda CX-5',
-    brand: 'Mazda',
-    model: 'CX-5',
-    year: '2021 - 2022',
-    price: 95,
-    image: 'https://images.unsplash.com/photo-1570784332778-99b8b13e7f75?w=400&h=300&fit=crop',
-    type: 'SUV',
-    seats: 5,
-    fuel: 'Gasoline',
-    capacity: '5 Passenger Seat',
-    kilometers: 9500,
-    units: 6,
-    discount: 8,
-    available: true,
-    location: 'Shopping Area, Bandung',
-    rating: 4.7,
-    reviews: 67
-  }
+
 ];
 
 export const carTypes = ['Electric', 'Coupe', 'Sedan', 'Economy', 'Luxury', 'SUV', 'Hatchback', 'Hybrid'];
