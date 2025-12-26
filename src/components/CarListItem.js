@@ -39,13 +39,7 @@ function CarListItem({ car, onClick }) {
           </span>
         </div>
       </div>
-      <div className="flex flex-col items-end justify-between">
-        <span className="text-lg font-bold text-gray-900">
-          ${car.price}
-          <span className="text-xs text-gray-600">/Day</span>
-        </span>
-        <button className="text-emerald-600 text-xs font-medium">Details</button>
-      </div>
+      
     </div>
   );
 }
