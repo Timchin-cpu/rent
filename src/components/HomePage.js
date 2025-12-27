@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import { MapPin, Calendar, Car as CarIcon } from 'lucide-react';
 import CarCard from './CarCard';
 import BottomNavigation from './BottomNavigation';
@@ -15,6 +15,9 @@ function HomePage({
   handleCarSelect,
   cars
 }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       {/* Header */}

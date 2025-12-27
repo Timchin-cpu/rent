@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect} from 'react';
 import { ChevronLeft, Search, Car as CarIcon, Navigation } from 'lucide-react';
 import CarListItem from './CarListItem';
 import BottomNavigation from './BottomNavigation';
@@ -22,7 +22,9 @@ function MapPage({ setCurrentView, handleCarSelect, cars }) {
     { top: '65%', left: '60%', color: 'bg-purple-600' },
     { top: '35%', left: '70%', color: 'bg-emerald-600' },
   ];
-
+useEffect(() => {
+  window.scrollTo(0, 0);
+});
   return (
     <div className="min-h-screen bg-gray-100 pb-20">
       {/* Map Area */}
