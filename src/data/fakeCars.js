@@ -119,26 +119,7 @@ export const fakeCars = [
     rating: 4.9,
     reviews: 78
   },
-  {
-    id: 7,
-    name: 'Hyundai Ioniq 5',
-    brand: 'Hyundai',
-    model: 'Ioniq 5',
-    year: '2022 - 2023',
-    price: 110,
-    image: '/7.jfif',
-    type: 'SUV',
-    seats: 5,
-    fuel: 'Electric Car',
-    capacity: '5 Passenger Seat',
-    kilometers: 6000,
-    units: 7,
-    discount: 12,
-    available: true,
-    location: 'Tech District, Surabaya',
-    rating: 4.8,
-    reviews: 92
-  },
+  
 
 ];
 
