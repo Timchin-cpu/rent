@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import { ChevronLeft, Plus, Zap, Users } from 'lucide-react';
 
 function DetailsPage({ car, setCurrentView, handleBookNow }) {
+  useEffect(() => {
+  window.scrollTo(0, 0);
+});
   return (
     <div className="min-h-screen bg-gray-50 pb-24">
       {/* Header */}
