@@ -6,7 +6,7 @@ export const fakeCars = [
     model: 'Leaf EV',
     year: '2020 - 2021',
     price: 100,
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&h=300&fit=crop',
+    image: '/1.jfif',
     type: 'Hatchback',
     seats: 4,
     fuel: 'Electric Car',
